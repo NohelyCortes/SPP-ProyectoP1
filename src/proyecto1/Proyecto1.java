@@ -27,7 +27,6 @@ public class Proyecto1 {
         System.out.println("4.Conversión de masas");
         System.out.println("5.Salir");
         opEntrada1= kb.nextInt();
-        
         switch (opEntrada1){
             case 1:
                 System.out.println("Bienvenido al convertidor de volúmenes");
@@ -86,6 +85,7 @@ public class Proyecto1 {
                         System.out.println(resultado +"in");
                         break;
                     case 5:
+                        resultado=(pedirMedida()*30.48);
                 }
                 break;
             case 3:
