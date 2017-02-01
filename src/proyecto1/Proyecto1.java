@@ -86,10 +86,31 @@ public class Proyecto1 {
                         break;
                     case 5:
                         resultado=(pedirMedida()*30.48);
+                        System.out.println(resultado + "cm");
+                        break;
+                    case 6:
+                        resultado=(pedirMedida()/(30.48));
+                        System.out.println(resultado + "pies");
+                        break;
+                    case 7:
+                        resultado=(pedirMedida()*91.4);
+                        System.out.println(resultado + "cm");
+                        break;
+                    case 8:
+                        resultado=(pedirMedida()/(91.4));
+                        System.out.println(resultado + "yardas");
+                        break;        
                 }
                 break;
             case 3:
                 System.out.println("Bienvenido al convertidor de temperaturas");
+                System.out.println("Introduzca la conversión deseada");
+                System.out.println("1.Celsius a Fahrenheit");
+                System.out.println("2.Fahrenheit a Celsius");
+                System.out.println("3.Celsius a Kelvin");
+                System.out.println("4.Kelvin a Celsius");
+                System.out.println("5.Fahrenheit a Kelvin");
+                System.out.println("6.Kelvin a Fahrenheit");
                 break;
             case 4:
                 System.out.println("Bienvenido al convertidor de masas");
